@@ -14,7 +14,7 @@
 	let importFileInputElement;
 	let importFiles;
 
-	let title: string = 'Ollama Web UI';
+	let title: string = 'iits LLM Web UI';
 	let search = '';
 
 	let chatDeleteId = null;
@@ -97,7 +97,7 @@
 			>
 				<div class="flex self-center">
 					<div class="self-center mr-3.5">
-						<img src="/ollama.png" class=" w-5 invert-[100%] rounded-full" />
+						<img src="/iits.png" class=" w-5 invert-[100%] rounded-full" />
 					</div>
 
 					<div class=" self-center font-medium text-sm">New Chat</div>

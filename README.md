@@ -1,4 +1,4 @@
-# Ollama Web UI: A User-Friendly Web Interface for Chat Interactions 👋
+# iits LLM Web UI: A User-Friendly Web Interface for Chat Interactions 👋
 
 ![GitHub stars](https://img.shields.io/github/stars/ollama-webui/ollama-webui?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/ollama-webui/ollama-webui?style=social)
@@ -13,7 +13,7 @@
 
 ChatGPT-Style Web Interface for Ollama 🦙
 
-![Ollama Web UI Demo](./demo.gif)
+![iits LLM Web UI Demo](./demo.gif)
 
 Also check our sibling project, [OllamaHub](https://ollamahub.com/), where you can discover, download, and explore customized Modelfiles for Ollama! 🦙🔍
 
@@ -57,9 +57,9 @@ Also check our sibling project, [OllamaHub](https://ollamahub.com/), where you c
 
 - 🔗 **External Ollama Server Connection**: Seamlessly link to an external Ollama server hosted on a different address by configuring the environment variable during the Docker build phase. Additionally, you can also set the external server connection URL from the web UI post-build.
 
-- 🔒 **Backend Reverse Proxy Support**: Strengthen security by enabling direct communication between Ollama Web UI backend and Ollama, eliminating the need to expose Ollama over LAN.
+- 🔒 **Backend Reverse Proxy Support**: Strengthen security by enabling direct communication between iits LLM Web UI backend and Ollama, eliminating the need to expose Ollama over LAN.
 
-- 🌟 **Continuous Updates**: We are committed to improving Ollama Web UI with regular updates and new features.
+- 🌟 **Continuous Updates**: We are committed to improving iits LLM Web UI with regular updates and new features.
 
 ## 🔗 Also Check Out OllamaHub!
 
@@ -67,7 +67,7 @@ Don't forget to explore our sibling project, [OllamaHub](https://ollamahub.com/)
 
 ## How to Install 🚀
 
-### Installing Both Ollama and Ollama Web UI Using Docker Compose
+### Installing Both Ollama and iits LLM Web UI Using Docker Compose
 
 If you don't have Ollama installed yet, you can use the provided Docker Compose file for a hassle-free installation. Simply run the following command:
 
@@ -75,9 +75,9 @@ If you don't have Ollama installed yet, you can use the provided Docker Compose 
 docker compose up -d --build
 ```
 
-This command will install both Ollama and Ollama Web UI on your system. Ensure to modify the `compose.yaml` file for GPU support and Exposing Ollama API outside the container stack if needed.
+This command will install both Ollama and iits LLM Web UI on your system. Ensure to modify the `compose.yaml` file for GPU support and Exposing Ollama API outside the container stack if needed.
 
-### Installing Ollama Web UI Only
+### Installing iits LLM Web UI Only
 
 #### Prerequisites
 
@@ -102,7 +102,7 @@ docker build -t ollama-webui .
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway --name ollama-webui --restart always ollama-webui
 ```
 
-Your Ollama Web UI should now be hosted at [http://localhost:3000](http://localhost:3000) and accessible over LAN (or Network). Enjoy! 😄
+Your iits LLM Web UI should now be hosted at [http://localhost:3000](http://localhost:3000) and accessible over LAN (or Network). Enjoy! 😄
 
 #### Accessing External Ollama on a Different Server
 
@@ -144,11 +144,11 @@ pip install -r requirements.txt
 sh start.sh
 ```
 
-You should have the Ollama Web UI up and running at http://localhost:8080/. Enjoy! 😄
+You should have the iits LLM Web UI up and running at http://localhost:8080/. Enjoy! 😄
 
 ### Project Components
 
-The Ollama Web UI consists of two primary components: the frontend and the backend (which serves as a reverse proxy, handling static frontend files, and additional features). Both need to be running concurrently for the development environment using `npm run dev`. Alternatively, you can set the `PUBLIC_API_BASE_URL` during the build process to have the frontend connect directly to your Ollama instance or build the frontend as static files and serve them with the backend.
+The iits LLM Web UI consists of two primary components: the frontend and the backend (which serves as a reverse proxy, handling static frontend files, and additional features). Both need to be running concurrently for the development environment using `npm run dev`. Alternatively, you can set the `PUBLIC_API_BASE_URL` during the build process to have the frontend connect directly to your Ollama instance or build the frontend as static files and serve them with the backend.
 
 ### Prerequisites
 
@@ -165,7 +165,7 @@ The Ollama Web UI consists of two primary components: the frontend and the backe
    cp -RPp example.env .env
    ```
 
-### Building Ollama Web UI Frontend
+### Building iits LLM Web UI Frontend
 
 1. **Install Node Dependencies:**
 
@@ -197,7 +197,7 @@ The Ollama Web UI consists of two primary components: the frontend and the backe
    caddy run --envfile .env --config ./Caddyfile.localhost
    ```
 
-### Running Ollama Web UI Backend
+### Running iits LLM Web UI Backend
 
 If you wish to run the backend for deployment, ensure that the frontend is built so that the backend can serve the frontend files along with the API route.
 
@@ -224,11 +224,11 @@ If you wish to run the backend for deployment, ensure that the frontend is built
      sh start.sh
      ```
 
-Now, you should have the Ollama Web UI up and running at [http://localhost:8080/](http://localhost:8080/). Feel free to explore the features and functionalities of Ollama! If you encounter any issues, please refer to the instructions above or reach out to the community for assistance.
+Now, you should have the iits LLM Web UI up and running at [http://localhost:8080/](http://localhost:8080/). Feel free to explore the features and functionalities of Ollama! If you encounter any issues, please refer to the instructions above or reach out to the community for assistance.
 
 ## Troubleshooting
 
-See [TROUBLESHOOTING.md](/TROUBLESHOOTING.md) for information on how to troubleshoot and/or join our [Ollama Web UI Discord community](https://discord.gg/5rJgQTnV4s).
+See [TROUBLESHOOTING.md](/TROUBLESHOOTING.md) for information on how to troubleshoot and/or join our [iits LLM Web UI Discord community](https://discord.gg/5rJgQTnV4s).
 
 ## What's Next? 🚀
 
@@ -242,7 +242,7 @@ Here are some exciting tasks on our roadmap:
 - 📈 **User Study Tools**: Providing specialized tools, like heat maps and behavior tracking modules, to empower researchers in capturing and analyzing user behavior patterns with precision and accuracy.
 - 📚 **Enhanced Documentation**: Elevate your setup and customization experience with improved, comprehensive documentation.
 
-Feel free to contribute and help us make Ollama Web UI even better! 🙌
+Feel free to contribute and help us make iits LLM Web UI even better! 🙌
 
 ## Supporters ✨
 
@@ -259,9 +259,9 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 ## Support 💬
 
 If you have any questions, suggestions, or need assistance, please open an issue or join our
-[Ollama Web UI Discord community](https://discord.gg/5rJgQTnV4s) or
+[iits LLM Web UI Discord community](https://discord.gg/5rJgQTnV4s) or
 [Ollama Discord community](https://discord.gg/ollama) to connect with us! 🤝
 
 ---
 
-Created by [Timothy J. Baek](https://github.com/tjbck) - Let's make Ollama Web UI even more amazing together! 💪
+Created by [Timothy J. Baek](https://github.com/tjbck) - Let's make iits LLM Web UI even more amazing together! 💪

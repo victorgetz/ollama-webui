@@ -85,7 +85,7 @@
 	<div class="fixed m-10 z-50">
 		<div class="flex space-x-2">
 			<div class=" self-center">
-				<img src="/ollama.png" class=" w-8" />
+				<img src="/iits.png" class=" w-8" />
 			</div>
 		</div>
 	</div>
@@ -118,7 +118,7 @@
 					}}
 				>
 					<div class=" text-2xl md:text-3xl font-semibold">
-						{mode === 'signin' ? 'Sign in' : 'Sign up'} to Ollama Web UI
+						{mode === 'signin' ? 'Sign in' : 'Sign up'} to iits LLM Web UI
 					</div>
 
 					<hr class="my-8" />

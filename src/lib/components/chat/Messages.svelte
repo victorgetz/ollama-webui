@@ -334,7 +334,7 @@
 			{#if selectedModelfile && selectedModelfile.imageUrl}
 				<img src={selectedModelfile?.imageUrl} class=" w-20 mb-2 rounded-full" />
 			{:else}
-				<img src="/ollama.png" class=" w-16 invert-[10%] dark:invert-[100%] rounded-full" />
+				<img src="/iits.png" class=" w-16 invert-[10%] dark:invert-[100%] rounded-full" />
 			{/if}
 		</div>
 		<div class=" mt-2 text-2xl text-gray-800 dark:text-gray-100 font-semibold">

@@ -67,7 +67,7 @@
 </script>
 
 <svelte:head>
-	<title>Ollama</title>
+	<title>iits LLM</title>
 </svelte:head>
 <Toaster />
 

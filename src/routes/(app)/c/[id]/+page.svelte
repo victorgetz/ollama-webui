@@ -276,11 +276,11 @@
 				}
 			} else {
 				toast.error(`Uh-oh! There was an issue connecting to Ollama.`);
-				responseMessage.content = `Uh-oh! There was an issue connecting to Ollama.`;
+				responseMessage.content = `Uh-oh! There was an issue connecting to the server.`;
 			}
 
 			responseMessage.error = true;
-			responseMessage.content = `Uh-oh! There was an issue connecting to Ollama.`;
+			responseMessage.content = `Uh-oh! There was an issue connecting to the server.`;
 			responseMessage.done = true;
 			messages = messages;
 		}

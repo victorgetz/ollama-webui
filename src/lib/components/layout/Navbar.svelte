@@ -4,7 +4,7 @@
 	import { goto } from '$app/navigation';
 	import { chatId } from '$lib/stores';
 
-	export let title: string = 'Ollama Web UI';
+	export let title: string = 'iits LLM Web UI';
 </script>
 
 <div
@@ -43,7 +43,7 @@
 					<div
 						class=" flex-1 self-center font-medium overflow-hidden text-ellipsis whitespace-nowrap w-[80vw] pr-4"
 					>
-						{title != '' ? title : 'Ollama Web UI'}
+						{title != '' ? title : 'iits LLM Web UI'}
 					</div>
 				</div>
 			</div>
